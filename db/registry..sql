@@ -1,0 +1,57 @@
+INSERT INTO Alumnos (apellido, nombre, fecha_nac, direccion, telefono, email) VALUES
+('Apellido1', 'Nombre1', '1995-04-23', 'Direccion1', '555-000001', 'email1@example.com'),
+('Apellido2', 'Nombre2', '1981-05-26', 'Direccion2', '555-000002', 'email2@example.com'),
+('Apellido3', 'Nombre3', '2010-01-22', 'Direccion3', '555-000003', 'email3@example.com'),
+('Apellido4', 'Nombre4', '1995-08-05', 'Direccion4', '555-000004', 'email4@example.com'),
+('Apellido5', 'Nombre5', '1996-04-28', 'Direccion5', '555-000005', 'email5@example.com'),
+('Apellido6', 'Nombre6', '1996-09-05', 'Direccion6', '555-000006', 'email6@example.com'),
+('Apellido7', 'Nombre7', '2008-08-25', 'Direccion7', '555-000007', 'email7@example.com'),
+('Apellido8', 'Nombre8', '2004-08-25', 'Direccion8', '555-000008', 'email8@example.com'),
+('Apellido9', 'Nombre9', '1974-12-08', 'Direccion9', '555-000009', 'email9@example.com'),
+('Apellido10', 'Nombre10', '1999-02-11', 'Direccion10', '555-000010', 'email10@example.com'),
+('Apellido11', 'Nombre11', '1979-07-12', 'Direccion11', '555-000011', 'email11@example.com'),
+('Apellido12', 'Nombre12', '2006-06-03', 'Direccion12', '555-000012', 'email12@example.com'),
+('Apellido13', 'Nombre13', '1975-05-15', 'Direccion13', '555-000013', 'email13@example.com'),
+('Apellido14', 'Nombre14', '1986-01-21', 'Direccion14', '555-000014', 'email14@example.com'),
+('Apellido15', 'Nombre15', '1990-12-04', 'Direccion15', '555-000015', 'email15@example.com'),
+('Apellido16', 'Nombre16', '2003-12-18', 'Direccion16', '555-000016', 'email16@example.com'),
+('Apellido17', 'Nombre17', '1997-06-29', 'Direccion17', '555-000017', 'email17@example.com'),
+('Apellido18', 'Nombre18', '1979-07-14', 'Direccion18', '555-000018', 'email18@example.com'),
+('Apellido19', 'Nombre19', '1995-08-07', 'Direccion19', '555-000019', 'email19@example.com'),
+('Apellido20', 'Nombre20', '1982-04-03', 'Direccion20', '555-000020', 'email20@example.com');
+
+INSERT INTO Cursos (nombre, nivel_habilidad, tipo_instrumento) VALUES
+('Guitarra Principiante', 'Principiante', 'Cuerda'),
+('Guitarra Intermedio', 'Intermedio', 'Cuerda'),
+('Guitarra Avanzado', 'Avanzado', 'Cuerda'),
+('Piano Principiante', 'Principiante', 'Teclado'),
+('Piano Intermedio', 'Intermedio', 'Teclado'),
+('Piano Avanzado', 'Avanzado', 'Teclado'),
+('Violín Principiante', 'Principiante', 'Cuerda'),
+('Violín Intermedio', 'Intermedio', 'Cuerda'),
+('Violín Avanzado', 'Avanzado', 'Cuerda');
+
+
+INSERT INTO Inscripciones (fecha_insc, abono_insc, id_alumno, id_curso) VALUES
+('2024-06-05', False, 1, 1),
+('2024-06-05', False, 1, 4),
+('2024-03-14', False, 2, 2),
+('2024-05-11', True, 3, 3),
+('2024-07-09', False, 4, 4),
+('2023-08-04', False, 5, 5),
+('2023-11-17', True, 6, 6),
+('2023-12-12', False, 7, 7),
+('2024-05-03', False, 8, 8),
+('2023-10-15', True, 9, 9),
+('2024-03-16', False, 10, 1),
+('2024-02-06', True, 11, 2),
+('2023-11-08', True, 12, 3),
+('2024-06-12', True, 13, 4),
+('2024-05-03', False, 14, 5),
+('2024-06-22', True, 15, 6),
+('2024-02-02', False, 16, 7),
+('2023-11-21', True, 17, 8),
+('2023-10-17', False, 18, 9),
+('2024-03-08', True, 19, 1),
+('2024-07-22', False, 20, 2);
+
